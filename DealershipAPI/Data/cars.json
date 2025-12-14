@@ -1,0 +1,131 @@
+[
+  {
+    "id": 1,
+    "make": "Toyota",
+    "model": "Corolla",
+    "registrationExpiry": "2024-01-15T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "make": "Toyota",
+    "model": "Camry",
+    "registrationExpiry": "2025-02-20T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "make": "Toyota",
+    "model": "RAV4",
+    "registrationExpiry": "2025-11-10T00:00:00Z"
+  },
+
+  {
+    "id": 4,
+    "make": "Honda",
+    "model": "Civic",
+    "registrationExpiry": "2024-03-01T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "make": "Honda",
+    "model": "Accord",
+    "registrationExpiry": "2025-05-30T00:00:00Z"
+  },
+  {
+    "id": 6,
+    "make": "Honda",
+    "model": "CR-V",
+    "registrationExpiry": "2025-12-01T00:00:00Z"
+  },
+
+  {
+    "id": 7,
+    "make": "Ford",
+    "model": "Focus",
+    "registrationExpiry": "2024-02-10T00:00:00Z"
+  },
+  {
+    "id": 8,
+    "make": "Ford",
+    "model": "Ranger",
+    "registrationExpiry": "2025-06-18T00:00:00Z"
+  },
+  {
+    "id": 9,
+    "make": "Ford",
+    "model": "Escape",
+    "registrationExpiry": "2025-09-05T00:00:00Z"
+  },
+
+  {
+    "id": 10,
+    "make": "Mazda",
+    "model": "Mazda 3",
+    "registrationExpiry": "2024-04-12T00:00:00Z"
+  },
+  {
+    "id": 11,
+    "make": "Mazda",
+    "model": "CX-5",
+    "registrationExpiry": "2025-07-25T00:00:00Z"
+  },
+
+  {
+    "id": 12,
+    "make": "Hyundai",
+    "model": "i30",
+    "registrationExpiry": "2024-05-20T00:00:00Z"
+  },
+  {
+    "id": 13,
+    "make": "Hyundai",
+    "model": "Tucson",
+    "registrationExpiry": "2025-08-15T00:00:00Z"
+  },
+
+  {
+    "id": 14,
+    "make": "Kia",
+    "model": "Cerato",
+    "registrationExpiry": "2024-06-05T00:00:00Z"
+  },
+  {
+    "id": 15,
+    "make": "Kia",
+    "model": "Sportage",
+    "registrationExpiry": "2025-10-10T00:00:00Z"
+  },
+
+  {
+    "id": 16,
+    "make": "Volkswagen",
+    "model": "Golf",
+    "registrationExpiry": "2024-07-01T00:00:00Z"
+  },
+  {
+    "id": 17,
+    "make": "Volkswagen",
+    "model": "Passat",
+    "registrationExpiry": "2025-12-20T00:00:00Z"
+  },
+
+  {
+    "id": 18,
+    "make": "BMW",
+    "model": "320i",
+    "registrationExpiry": "2025-09-30T00:00:00Z"
+  },
+
+  {
+    "id": 19,
+    "make": "Mercedes-Benz",
+    "model": "C200",
+    "registrationExpiry": "2024-01-05T00:00:00Z"
+  },
+
+  {
+    "id": 20,
+    "make": "Nissan",
+    "model": "X-Trail",
+    "registrationExpiry": "2025-11-28T00:00:00Z"
+  }
+]
