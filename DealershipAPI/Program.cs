@@ -1,4 +1,6 @@
 using DealershipAPI.Repositories;
+using DealershipAPI.Services;
+using DealershipAPI.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,8 +10,10 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-//Add to services
+// Dependency Injection
 builder.Services.AddSingleton<ICarRepository, CarRepository>();
+builder.Services.AddHostedService<RegistrationCheckerService>();
+
 
 var app = builder.Build();
 
@@ -24,5 +28,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapHub<RegistrationHub>("/registrationHub");
 
 app.Run();
