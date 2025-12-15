@@ -15,6 +15,15 @@ builder.Services.AddSignalR();
 builder.Services.AddSingleton<ICarRepository, CarRepository>();
 builder.Services.AddHostedService<RegistrationCheckerService>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+        policy.AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials()
+              .WithOrigins("http://localhost:5174")
+              ); 
+});
 
 var app = builder.Build();
 
@@ -24,9 +33,10 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
+app.UseCors();
 
 app.MapControllers();
 app.MapHub<RegistrationHub>("/registrationHub");

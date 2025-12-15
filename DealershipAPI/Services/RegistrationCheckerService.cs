@@ -38,6 +38,7 @@ namespace DealershipAPI.Services
                     cancellationToken: stoppingToken
                 );
 
+                //Run every 5 seconds to update live data
                 await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
             }
         }

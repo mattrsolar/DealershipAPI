@@ -3,7 +3,7 @@
     "id": 1,
     "make": "Toyota",
     "model": "Corolla",
-    "registrationExpiry": "2024-01-15T00:00:00Z"
+    "registrationExpiry": "2027-01-15T00:00:00Z"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "id": 3,
     "make": "Toyota",
     "model": "RAV4",
-    "registrationExpiry": "2025-11-10T00:00:00Z"
+    "registrationExpiry": "2028-11-10T00:00:00Z"
   },
 
   {
@@ -41,7 +41,7 @@
     "id": 7,
     "make": "Ford",
     "model": "Focus",
-    "registrationExpiry": "2024-02-10T00:00:00Z"
+    "registrationExpiry": "2029-02-10T00:00:00Z"
   },
   {
     "id": 8,
